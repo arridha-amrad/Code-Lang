@@ -1,0 +1,15 @@
+/Users/ari/Desktop/c#/hello-world/bin/Debug/net7.0/hello-world
+/Users/ari/Desktop/c#/hello-world/bin/Debug/net7.0/hello-world.deps.json
+/Users/ari/Desktop/c#/hello-world/bin/Debug/net7.0/hello-world.runtimeconfig.json
+/Users/ari/Desktop/c#/hello-world/bin/Debug/net7.0/hello-world.dll
+/Users/ari/Desktop/c#/hello-world/bin/Debug/net7.0/hello-world.pdb
+/Users/ari/Desktop/c#/hello-world/obj/Debug/net7.0/hello-world.csproj.AssemblyReference.cache
+/Users/ari/Desktop/c#/hello-world/obj/Debug/net7.0/hello-world.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ari/Desktop/c#/hello-world/obj/Debug/net7.0/hello-world.AssemblyInfoInputs.cache
+/Users/ari/Desktop/c#/hello-world/obj/Debug/net7.0/hello-world.AssemblyInfo.cs
+/Users/ari/Desktop/c#/hello-world/obj/Debug/net7.0/hello-world.csproj.CoreCompileInputs.cache
+/Users/ari/Desktop/c#/hello-world/obj/Debug/net7.0/hello-world.dll
+/Users/ari/Desktop/c#/hello-world/obj/Debug/net7.0/refint/hello-world.dll
+/Users/ari/Desktop/c#/hello-world/obj/Debug/net7.0/hello-world.pdb
+/Users/ari/Desktop/c#/hello-world/obj/Debug/net7.0/hello-world.genruntimeconfig.cache
+/Users/ari/Desktop/c#/hello-world/obj/Debug/net7.0/ref/hello-world.dll
