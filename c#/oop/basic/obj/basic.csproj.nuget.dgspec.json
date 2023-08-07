@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ari/Documents/c#/oop/basic/basic.csproj": {}
+    "C:\\Users\\arrid\\Documents\\Code-Lang\\c#\\oop\\basic\\basic.csproj": {}
   },
   "projects": {
-    "/Users/ari/Documents/c#/oop/basic/basic.csproj": {
+    "C:\\Users\\arrid\\Documents\\Code-Lang\\c#\\oop\\basic\\basic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ari/Documents/c#/oop/basic/basic.csproj",
+        "projectUniqueName": "C:\\Users\\arrid\\Documents\\Code-Lang\\c#\\oop\\basic\\basic.csproj",
         "projectName": "basic",
-        "projectPath": "/Users/ari/Documents/c#/oop/basic/basic.csproj",
-        "packagesPath": "/Users/ari/.nuget/packages/",
-        "outputPath": "/Users/ari/Documents/c#/oop/basic/obj/",
+        "projectPath": "C:\\Users\\arrid\\Documents\\Code-Lang\\c#\\oop\\basic\\basic.csproj",
+        "packagesPath": "C:\\Users\\arrid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\arrid\\Documents\\Code-Lang\\c#\\oop\\basic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/ari/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\arrid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
