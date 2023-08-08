@@ -1,14 +1,16 @@
-<?php declare(strict_types=1);
+<?php
 
-  function greet(string $message) {
-    return $message;
-  }
+declare(strict_types=1);
 
-  $user["name"] = "ari";
-  $user["age"] = 28;
+function greet(string $message)
+{
+  return $message;
+}
 
-  // echo greet("Hello there");
+$user["name"] = "ari";
+$user["age"] = 28;
 
-  print_r($user);
-  var_dump($user["name"]);
+// echo greet("Hello there");
 
+print_r($user);
+var_dump($user["name"]);
