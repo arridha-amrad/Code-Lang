@@ -7,44 +7,65 @@ namespace abstraction
   class Abstraction
   {
 
-    // public static void Main(String[] args)
-    // {
-    //   Animal dog = new Dog();
-    //   dog.AnimalSound();
+    public static void Main(String[] args)
+    {
+      Dog dog = new Dog
+      {
+        AnimalName = "PitBull"
+      };
+      dog.AnimalSound();
 
-    //   Animal cat = new Cat();
-    //   cat.AnimalSound();
+      Cat cat = new Cat();
+      cat.AnimalName = "Persian Cat";
+      cat.AnimalSound();
 
-    //   cat.Sleep();
-    //   dog.Sleep();
+      cat.Sleep();
+      dog.Sleep();
 
-    // }
+    }
 
   }
 
   abstract class Animal
   {
+    public abstract string AnimalName { get; set; }
     public abstract void AnimalSound();
     public void Sleep()
     {
-      Console.WriteLine("zzz");
+      Console.WriteLine($"{this.AnimalName} zzz");
     }
   }
 
   class Dog : Animal
   {
+    private string _AnimalName = string.Empty;
+    public override string AnimalName
+    {
+      get => this._AnimalName;
+      set
+      {
+        this._AnimalName = value;
+      }
+    }
+
     public override void AnimalSound()
     {
-      Console.WriteLine("Dog says : bow bow");
+      Console.WriteLine($"Dog name {this._AnimalName} says : bow bow");
     }
   }
 
   class Cat : Animal
   {
+    private string _CatName = string.Empty;
+    public override string AnimalName
+    {
+      get => this._CatName;
+      set => this._CatName = value;
+    }
+
     public override void AnimalSound()
     {
-      Console.WriteLine("Cat says : meow meow");
-
+      Console.WriteLine($"Cat name {this._CatName} says : meow meow");
     }
   }
 }

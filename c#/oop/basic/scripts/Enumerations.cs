@@ -2,20 +2,20 @@ namespace Enumerations
 {
   class Program
   {
-    public static void Main(string[] args)
-    {
-      // int android = (int)Android.Tiramisu;
-      // Console.WriteLine(android);
+    // public static void Main(string[] args)
+    // {
+    //   // int android = (int)Android.Tiramisu;
+    //   // Console.WriteLine(android);
 
-      Android android = Android.Nougat;
-      Android androidTwo = Android.Pie;
+    //   Android android = Android.Nougat;
+    //   Android androidTwo = Android.Pie;
 
-      Console.WriteLine(android);
-      Console.WriteLine(androidTwo);
+    //   Console.WriteLine(android);
+    //   Console.WriteLine(androidTwo);
 
-      FiveGSupport(android);
-      FiveGSupport(androidTwo);
-    }
+    //   FiveGSupport(android);
+    //   FiveGSupport(androidTwo);
+    // }
 
     private static void FiveGSupport(Android android)
     {
