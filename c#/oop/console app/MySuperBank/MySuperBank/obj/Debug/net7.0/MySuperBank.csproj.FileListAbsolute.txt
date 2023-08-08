@@ -1,0 +1,15 @@
+/Users/ari/Documents/codeLang/c#/oop/console app/MySuperBank/MySuperBank/bin/Debug/net7.0/MySuperBank
+/Users/ari/Documents/codeLang/c#/oop/console app/MySuperBank/MySuperBank/bin/Debug/net7.0/MySuperBank.deps.json
+/Users/ari/Documents/codeLang/c#/oop/console app/MySuperBank/MySuperBank/bin/Debug/net7.0/MySuperBank.runtimeconfig.json
+/Users/ari/Documents/codeLang/c#/oop/console app/MySuperBank/MySuperBank/bin/Debug/net7.0/MySuperBank.dll
+/Users/ari/Documents/codeLang/c#/oop/console app/MySuperBank/MySuperBank/bin/Debug/net7.0/MySuperBank.pdb
+/Users/ari/Documents/codeLang/c#/oop/console app/MySuperBank/MySuperBank/obj/Debug/net7.0/MySuperBank.csproj.AssemblyReference.cache
+/Users/ari/Documents/codeLang/c#/oop/console app/MySuperBank/MySuperBank/obj/Debug/net7.0/MySuperBank.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ari/Documents/codeLang/c#/oop/console app/MySuperBank/MySuperBank/obj/Debug/net7.0/MySuperBank.AssemblyInfoInputs.cache
+/Users/ari/Documents/codeLang/c#/oop/console app/MySuperBank/MySuperBank/obj/Debug/net7.0/MySuperBank.AssemblyInfo.cs
+/Users/ari/Documents/codeLang/c#/oop/console app/MySuperBank/MySuperBank/obj/Debug/net7.0/MySuperBank.csproj.CoreCompileInputs.cache
+/Users/ari/Documents/codeLang/c#/oop/console app/MySuperBank/MySuperBank/obj/Debug/net7.0/MySuperBank.dll
+/Users/ari/Documents/codeLang/c#/oop/console app/MySuperBank/MySuperBank/obj/Debug/net7.0/refint/MySuperBank.dll
+/Users/ari/Documents/codeLang/c#/oop/console app/MySuperBank/MySuperBank/obj/Debug/net7.0/MySuperBank.pdb
+/Users/ari/Documents/codeLang/c#/oop/console app/MySuperBank/MySuperBank/obj/Debug/net7.0/MySuperBank.genruntimeconfig.cache
+/Users/ari/Documents/codeLang/c#/oop/console app/MySuperBank/MySuperBank/obj/Debug/net7.0/ref/MySuperBank.dll

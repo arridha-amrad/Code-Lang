@@ -8,19 +8,19 @@ namespace MySuperBank
 {
     public class BankAccount
     {
-        public string Number { get; } = string.Empty;  
-        public string Owner { get; set; }   
-        public decimal Balance 
+        public string Number { get; } = string.Empty;
+        public string Owner { get; set; }
+        public decimal Balance
         {
             get
             {
                 decimal balance = 0;
-                
+
                 foreach (var item in this.allTransactions)
                 {
                     balance += item.Amount;
                 }
-                
+
                 return balance;
             }
         }
@@ -40,7 +40,7 @@ namespace MySuperBank
 
         public void MakeDeposit(decimal amount, DateTime date, string note)
         {
-            if(amount <= 0)
+            if (amount <= 0)
             {
                 throw new ArgumentOutOfRangeException(nameof(amount), "Amount of deposit must be positive");
             }
@@ -49,18 +49,19 @@ namespace MySuperBank
             allTransactions.Add(deposit);
         }
 
-        public void MakeWithdrawal(decimal amount, DateTime date, string note) 
+        public void MakeWithdrawal(decimal amount, DateTime date, string note)
         {
-            if(amount <= 0) { 
+            if (amount <= 0)
+            {
                 throw new ArgumentOutOfRangeException(nameof(amount), "Amount of withdrawal must be positive");
             }
-            if(Balance - amount < 0)
+            if (Balance - amount < 0)
             {
                 throw new InvalidOperationException("Not sufficeient funds for this withdrawal");
             }
             Console.WriteLine($"Withdraw : {amount} for {note}");
             Transaction withdrawal = new(-amount, date, note);
-            allTransactions.Add(withdrawal);        
+            allTransactions.Add(withdrawal);
         }
 
         public string GetAccountHistory()
@@ -68,7 +69,7 @@ namespace MySuperBank
             StringBuilder report = new();
             // HEADER
             report.AppendLine("Date\t\tAmount\tNote");
-            foreach(Transaction transaction in allTransactions)
+            foreach (Transaction transaction in allTransactions)
             {
                 // ROWS
                 report.AppendLine($"{transaction.Date.ToShortDateString()}\t{transaction.Amount}\t{transaction.Notes}");

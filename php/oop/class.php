@@ -18,24 +18,27 @@ class User
 
   function __destruct()
   {
-    echo "your name is {$this->name}";
+    echo "your name is $this->name" ;
   }
 
   function greet(string $message)
   {
-    return "You said : " + $message;
+    return "$this->name said : $message";
   }
 
-  // function set_name(string $name) {
-  //   $this->name = $name;
-  // }
+  function set_name(string $name) {
+    $this->name = $name;
+  }
 
-  // function get_name(): string {
-  //   return $this->name;
-  // }
+  function get_name(): string {
+    return $this->name;
+  }
 
 }
 
 $ari = new User("ari", 28, false);
 
-  // var_dump($ari instanceof User);
+echo $ari->greet("Assalamualaikum") . "\n";
+var_dump($ari instanceof User);
+
+?>
