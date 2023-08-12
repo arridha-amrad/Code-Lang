@@ -4,27 +4,27 @@
 
 namespace abstraction
 {
-  class Abstraction
-  {
+  //class Abstraction
+  //{
 
-    public static void Main(String[] args)
-    {
-      Dog dog = new Dog
-      {
-        AnimalName = "PitBull"
-      };
-      dog.AnimalSound();
+  //  public static void Main(String[] args)
+  //  {
+  //    Dog dog = new Dog
+  //    {
+  //      AnimalName = "PitBull"
+  //    };
+  //    dog.AnimalSound();
 
-      Cat cat = new Cat();
-      cat.AnimalName = "Persian Cat";
-      cat.AnimalSound();
+  //    Cat cat = new Cat();
+  //    cat.AnimalName = "Persian Cat";
+  //    cat.AnimalSound();
 
-      cat.Sleep();
-      dog.Sleep();
+  //    cat.Sleep();
+  //    dog.Sleep();
 
-    }
+  //  }
 
-  }
+  //}
 
   abstract class Animal
   {

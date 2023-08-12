@@ -4,20 +4,20 @@
 
 namespace LearnInterface
 {
-  class Program
-  {
-    // public static void Main(string[] args)
-    // {
-    //   Dog dog = new();
-    //   dog.MakeSound();
-    //   dog.Run();
+  //class Program
+  //{
+        // public static void Main(string[] args)
+        // {
+        //   Dog dog = new();
+        //   dog.MakeSound();
+        //   dog.Run();
 
-    //   dog.Breath();
-    //   dog.FindFood();
-    // }
-  }
+        //   dog.Breath();
+        //   dog.FindFood();
+        // }
+    //}
 
-  interface IAnimal
+    interface IAnimal
   {
     void Run();
     void MakeSound();
