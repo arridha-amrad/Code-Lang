@@ -9,8 +9,12 @@ abstract class Creature
   {
     $this->name = $name;
   }
-  abstract function breath();
-  abstract function getFoods();
+  function set_name(string $name)
+  {
+    $this->name = $name;
+  }
+  abstract function breath(): string;
+  abstract function getFoods(): array;
 }
 
 class Human extends Creature
@@ -20,13 +24,13 @@ class Human extends Creature
     $this->name = $name;
   }
 
-  function breath()
+  function breath(): string
   {
     $name = $this->name;
     return "{$name} breathing with lungs";
   }
 
-  function getFoods()
+  function getFoods(): array
   {
     return ["rice", "fish", "meat"];
   }
@@ -39,12 +43,12 @@ class Fish extends Creature
     $this->name = $name;
   }
 
-  function breath()
+  function breath(): string
   {
     return "{$this->name} breathing with gill";
   }
 
-  function getFoods()
+  function getFoods(): array
   {
     return ["small-fish", "moss", "poop"];
   }
@@ -53,5 +57,7 @@ class Fish extends Creature
 $human = new Human("Jack");
 $catFish = new Fish("Cat-Fish");
 
+$human->set_name("Bill");
 echo $human->breath() . "\n";
-echo join(", ", $catFish->getFoods()) . "\n";
+echo $catFish->breath() . "\n";
+echo $catFish->name . " eats " . join(", ", $catFish->getFoods()) . "\n";

@@ -6,9 +6,16 @@ declare(strict_types=1);
 
 class User
 {
-  public $name;
-  public $age;
-  public $isMarried;
+  private $name;
+  private $age;
+  private $isMarried;
+
+  function __construct(string $name, int $age, bool $isMarried)
+  {
+    $this->name = $name;
+    $this->age = $age;
+    $this->isMarried = $isMarried;
+  }
 
   public function set_name(string $name)
   {
@@ -22,10 +29,12 @@ class User
 
   public function getUserDetail()
   {
-    echo "name:{$this->name}. age:{$this->age}. isMarried:{$this->isMarried}\n";
+    $status = $this->isMarried ? "yes" : "no";
+    echo "name:{$this->name}. age:{$this->age}. isMarried:{$status}\n";
   }
 }
 
-$user = new User();
+$user = new User("alex", 22, false);
 $user->set_name("Alex");
 $user->greet();
+$user->getUserDetail();
